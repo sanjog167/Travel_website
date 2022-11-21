@@ -1,13 +1,7 @@
 @charset 'UTF-8';
 /**!
 
-    Template Name: RainyTheme Starter
-    Template URI: https://themeforest.net/user/rainytheme
-    Description:
-    Author: mahedi amin
-    Author URI: https://themeforest.net/user/rainytheme
-    Version: 1.0.0
-    -------------------------------------------------
+
 
    ---- Deafult--------
        1.0 Root Css
@@ -18794,8 +18788,8 @@ pre
      text-fill-color: transparent;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
-     -webkit-animation: textclip 3.5s linear infinite;
-     animation: textclip 3.5s linear infinite;
+     -webkit-animation: textclip 1.5s linear infinite;
+     animation: textclip 1.5s linear infinite;
 }
 
 .rt-section-title-wrapper p{
@@ -18956,4 +18950,58 @@ pre
     font-size: 1.2em;
     margin-bottom: 10px;
     color: #20496a;
+}
+
+.white-menu .main-menu > ul > li > a {
+    color: #000;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.brand-logo img, .sticky-logo img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.offer_line{
+    color: white;
+    text-align: center;
+    background: #076d6f;
+    padding: 5px 0;
+}
+
+.offer_line p{
+    margin: 0;
+}
+
+#accordionExample .card{
+    margin-bottom: 0;
+    height: initial;
+    background: unset;
+    box-shadow: unset;
+    border: none;
+}
+
+.rt-site-header .main-header, .main-header .main-header {
+    padding: 0 0px;
+}
+
+.main-header.rt-sticky.rt-sticky-active {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 10px 0 rgb(55 94 246 / 10%);
+    box-shadow: 0 1px 10px 0 rgb(55 94 246 / 10%);
+    background: rgba(0,0,0,0);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background: hsla(0,0%,100%,.8);
+}
+
+.white-menu .main-menu > ul > li.current-menu-item > a {
+    color: #000;
+    
 }
